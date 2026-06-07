@@ -1,0 +1,87 @@
+@font-face {
+  font-family:Reckless;
+  src:url("https://cdn.shopify.com/s/files/1/0297/8132/7932/files/RecklessCondensedS-TRIAL-Book.woff?v=1768655865")
+}
+
+
+@font-face {
+  font-family:Midnight;
+  src:url("https://cdn.shopify.com/s/files/1/0297/8132/7932/files/midnight-sans-rd-12-medium-trial.otf?v=1768200246")
+}
+
+@font-face {
+  font-family:figtree ;
+  src: url(https://www.twoleavestea.com/cdn/fonts/figtree/figtree_n4.3c0838aba1701047e60be6a99a1b0a40ce9b8419.woff2);
+}
+
+
+
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color:black;
+}
+.nav{
+    height:10vw;
+    width:100vw;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+
+
+}
+.nav1{
+    width:100%;
+    color:white;
+    font-size:clamp(2rem,3vw,3rem);
+    padding:5rem;
+}
+.nav2{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    width:100%;
+    padding:2rem;
+    
+
+}
+.nav2 a{
+  color:white;
+  text-decoration:none;
+  font-size:clamp(1rem,2vw,1.8rem);
+}
+.sec{
+      display:flex;
+    justify-content:space-around;
+    align-items:center;
+    width:100vw;
+    height:30vw;
+  
+}
+.sec1{
+  font-size:clamp(3rem,6vw,6rem);
+  color:white;
+  font-weight: 600;
+  font-family:Figtree;
+
+  
+}
+
+
+.sec2 img{
+  object-fit: cover;
+  border-radius:1em;
+}
+.nav2 a:hover{
+  font-size:1.9rem;
+
+}
+
